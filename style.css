@@ -1,0 +1,79 @@
+body{
+    background-color: #CCFFCC;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header{
+    color:rgb(204, 31, 19)
+}
+
+nav{
+    color: yellow;
+}
+
+a{
+    color: brown;
+}
+
+h2{
+    color: rgb(195, 15, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+h3{
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15;
+}
+
+.card { background-color: lightblue;}
+
+footer{
+    color: chartreuse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+
+button{
+    background-color: rgb(38, 17, 223);
+    color: wheat;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid rgb(212, 15, 186);
+    border-radius: 5px;
+}
+
+textarea{
+    padding: 10px;
+    border: 1px solid rgb(20, 178, 206);
+    border-radius: 5px;
+    height: 50px;
+}
+
+button{
+    background-color: rgb(226, 11, 11);
+    color: rgb(57, 26, 190);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgb(223, 11, 170);
+}
